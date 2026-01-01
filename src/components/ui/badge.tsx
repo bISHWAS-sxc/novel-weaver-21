@@ -11,7 +11,14 @@ const badgeVariants = cva(
         default: "border-transparent bg-primary text-primary-foreground hover:bg-primary/80",
         secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
-        outline: "text-foreground",
+        outline: "text-foreground border-border",
+        // Character tags
+        mc: "border-primary/30 bg-primary/20 text-primary",
+        villain: "border-destructive/30 bg-destructive/20 text-destructive",
+        ally: "border-sage/30 bg-sage/20 text-sage",
+        mentor: "border-gold/30 bg-gold/20 text-gold",
+        "love-interest": "border-wine/30 bg-wine/20 text-wine",
+        side: "border-muted-foreground/30 bg-muted text-muted-foreground",
       },
     },
     defaultVariants: {

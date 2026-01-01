@@ -1,9 +1,5 @@
 {
   "appId": "app.lovable.b11312e662344e7f870e79f27c101113",
   "appName": "Novel Companion",
-  "webDir": "dist",
-  "server": {
-    "url": "https://b11312e6-6234-4e7f-870e-79f27c101113.lovableproject.com?forceHideBadge=true",
-    "cleartext": true
-  }
+  "webDir": "dist"
 }
